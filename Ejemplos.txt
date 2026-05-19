@@ -1,0 +1,45 @@
+#======================
+# EJEMPLO 1 (LAMINAR)
+#======================
+
+🔼 DATOS DE SUCCIÓN
+Fluido: Aceite
+Caudal (Q): 0.001 m³/s
+Longitud (Ls): 2.0 m
+Diámetro (Ds): 0.05 m
+Rugosidad (es): 0.045 mm
+Altura (Z1): 0.0 m
+Accesorios: 1 Entrada brusca (K=0.5)
+
+🔽 DATOS DE DESCARGA
+Longitud (Ld): 5.0 m
+Diámetro (Dd): 0.05 m
+Rugosidad (ed): 0.045 mm
+Altura (Z2): 2.0 m
+Accesorios:
+1 Válvula compuerta (K=0.2)
+2 Codos 90° (K=0.9 c/u)
+1 Salida libre (K=1.0)
+
+#======================
+# EJEMPLO 2 (TURBULENTO)
+#======================
+
+🔼 DATOS DE SUCCIÓN
+Fluido: Agua
+Caudal (Q): 0.006 m³/s
+Longitud (Ls): 3.0 m
+Diámetro (Ds): 0.08 m
+Rugosidad (es): 0.045 mm
+Altura (Z1): 0.0 m
+Accesorios: Entrada brusca (K=0.5), Codo 90° (K=0.9)
+
+🔽 DATOS DE DESCARGA
+Longitud (Ld): 45.0 m
+Diámetro (Dd): 0.05 m
+Rugosidad (ed): 0.045 mm
+Altura (Z2): 25.0 m
+Accesorios:
+1 Válvula globo (K=10.0), 1 Check (K=2.0)
+4 Codos 90° (K=0.9 c/u)
+1 Salida libre (K=1.0)
